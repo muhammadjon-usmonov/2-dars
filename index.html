@@ -19,21 +19,21 @@
                 </a>
 
         <nav class="nav"> 
-            <ul class="nav-list">
-                <li class="nav-list-item">
-                    <a class="list-item-link"
+            <ul class="nav__list">
+                <li class="nav__list__item">
+                    <a class="list__item__link"
                         href="./index.html">
                         HOME
                     </a>
                 </li>
-                <li class="nav-list-item">
-                    <a class="list-item-link"
+                <li class="nav__list__item">
+                    <a class="list__item__link"
                         href="./index.html">
                         ABOUT US
                     </a>
                 </li>
-                <li class="nav-list-item list-item-st">
-                    <a class="list-item-link"
+                <li class="nav__list__item list__item__st">
+                    <a class="list__item__link"
                         href="./index.html">
                         Create your plan
                     </a>
@@ -57,7 +57,7 @@
                         Try our expertly curated artisan coffees from our 
                         best roasters delivered directly to your door, at your schedule.
                     </p>
-                    <a class="coffe-hero-link"
+                    <a class="button"
                         href="#">
                         Create your plan
                     </a>
@@ -75,7 +75,7 @@
                         <h3 class="collection-title espresso-title">
                             Gran Espresso
                         </h3>
-                        <p class="all-text espresso-text">
+                        <p class="all-texts espresso-text">
                             Light and flavorful blend with cocoa 
                             and black pepper for an intense experience
                         </p>
@@ -85,7 +85,7 @@
                         <h3 class="collection-title planalto-title">
                             Planalto
                         </h3>
-                        <p class="all-text espresso-text">
+                        <p class="all-texts espresso-text">
                             Brazilian dark roast with rich and
                             velvety body, and hints of fruits and nuts
                         </p>
@@ -95,7 +95,7 @@
                         <h3 class="collection-title piccollo-title">
                             Piccollo
                         </h3>
-                        <p class="all-text piccollo-text">
+                        <p class="all-texts piccollo-text">
                             Mild and smooth blend featuring 
                             notes of toasted almond and dried cherry
                         </p>
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="choose-bottom">
-                        <div class="choose-square quality">
+                        <a class="choose__link quality" href="#">
                             <h3 class="choose-title quality-title">
                                 Best quality
                             </h3>
@@ -140,9 +140,9 @@
                                     Discover an endless variety of the world’s best 
                                     artisan coffee from each of our roasters.
                                 </p>
-                        </div>
+                        </a>
 
-                        <div class="choose-square benefits">
+                        <a class="choose__link benefits" href="#">
                             <h3 class="choose-title benefits-title">
                                 Exclusive benefits
                             </h3>
@@ -150,9 +150,9 @@
                                 Special offers and swag when you subscribe,
                                 including 30% off your first shipment.
                             </p>
-                        </div>
+                       </a>
 
-                        <div class="choose-square shipping">
+                        <a class="choose__link shipping" href="#">
                             <h3 class="choose-title shipping-title">
                                 Free shipping
                             </h3>
@@ -160,7 +160,7 @@
                                 We cover the cost and coffee is delivered fast. 
                                 Peak freshness: guaranteed.
                             </p>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -175,7 +175,10 @@
                 <span class="work-item">
                     How it works
                 </span>
-
+                <span class="number-line"></span>
+                <span class="circle circle-st"></span>
+                <span class="circle circle-nd"></span>
+                <span class="circle circle-th"></span>
                 <div class="work-box">
                     <div class="work-list">
                         <span class="work-number">
@@ -220,7 +223,7 @@
                     </div>
                 </div>
 
-                <a class="coffe-hero-link coffe-link-main" href="#">
+                <a class="button coffe-link-main" href="#">
                     Create your plan
                 </a>
             </div>
@@ -237,23 +240,29 @@
                     width="236"
                     height="26">
             </a>
-            <ul class="footer-list">
-                <li class="footer-item">
-                    <a  class="footer-item-link" href="./index.html">
-                        HOME
-                    </a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-item-link"  href="#">
-                        ABOUT US
-                    </a>
-                </li>
-                <li class="footer-item">
-                    <a class="footer-item-link"  href="#">
-                    Create your plan
-                    </a>
-                </li>
-            </ul>
+
+            <nav class="nav"> 
+                <ul class="nav__list">
+                    <li class="nav__list__item">
+                        <a class="list__item__link"
+                            href="./index.html">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="nav__list__item">
+                        <a class="list__item__link"
+                            href="./index.html">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="nav__list__item list__item__st">
+                        <a class="list__item__link"
+                            href="./index.html">
+                            Create your plan
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
             <a class="footer-link" 
                 href="./https://www.facebook.com">
@@ -272,7 +281,7 @@
             </a>
             
             <a  class="footer-link"
-                ;href="./https://www.instagram.com">
+                href="./https://www.instagram.com">
                 <img src="./image/svg/instagram.svg" 
                     alt="the site link instagram"
                     width="24"
