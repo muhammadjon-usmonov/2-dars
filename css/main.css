@@ -77,7 +77,7 @@ img{
     width: 100%;
     z-index: 100;
     background-color: #ffffff;
-    box-shadow: 0 1px 0 0 rgb(236, 227, 227);
+    padding-bottom: 10px;
 }
 
 .header .container{
@@ -97,6 +97,7 @@ img{
     margin: 0;
     padding: 0;
     margin-top: 30px;
+    text-transform: uppercase;
 }
 
 .nav__list__item{
@@ -132,7 +133,7 @@ img{
     background-image: url(../image/jpg/Bitmap.jpg);
     background-size: 1280px 600px;
     background-repeat: no-repeat;
-    background-position:left 10 center;
+    background-position:left 10px center;
     margin-bottom: 100px;
 }
 
@@ -502,6 +503,7 @@ img{
 }
 
 .footer-logo-link{
+    margin-left: 80px;
     margin-right: 103px;
 }
 
@@ -510,7 +512,7 @@ img{
 }
 
 .footer .list__item__link{
-    color: #e4e7eb;
+    color: #83888F;
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -518,15 +520,17 @@ img{
     text-transform: uppercase;
 }
 
+.footer .nav{
+    margin-right: 360px;
+}
 
 .footer .nav__list{
     padding-top: 7px;
-    margin-right: 360px;
     margin-top: 0;
 }
 
 .footer .list__item__link:active{
-    color:  0.2 ese #FEFCF7;
+    color: #FEFCF7;
 }
 
 .footer-link{
